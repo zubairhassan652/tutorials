@@ -1,15 +1,12 @@
 # Data Sharing
 in tow different ways
 
-### Runtime level
-using context package we can access runtime level data in every package and every go routines
-
 ### Package level
-using global variable we can access them accross the package
+using global variable
 
+### Runtime level
+using context package with goroutines safety
 
-# Bundling on build tags
-###### TODO
 
 # Interface mystries
 Go's interface values are really a pair of pointers. When you put a concrete value into an interface value, one pointer starts pointing at the value. The second will now point to the 
