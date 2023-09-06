@@ -1,3 +1,6 @@
+# Go Web Assembly
+While working with go and web assembly go native server don't work to serve `.wasm` modules properly insted use `python3 -m http.server 8080` to server `.wasm` modules properly.
+
 # Data Sharing
 in tow different ways
 
